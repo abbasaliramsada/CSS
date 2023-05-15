@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec-one{
+    background-image: url(./Imgs/Sec-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    background-color: #303030d1;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec-one ul{
+    display: flex;
+}
+.sec-one ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+.sec-one ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+.sec-one ul li a:hover{
+    color: #e8631c;
+    transition: .3s;
+}
+.sec-one-icon i{
+    color: #ffffff;
+    font-size: 20px;
+}
+.sec-one-icon i:hover{
+    color: #e8631c;
+    transition: .3s;
+    transform: scale(1.3);
+}
+.sec-one-text h1{
+    font-size: 125px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";   
+    padding-top: 12%;
+    margin-top: 100px;
+}
+.sec-one-text p{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    width: 40%;
+    padding-bottom: 20px;
+}
+.sec-one-text .btn{
+    padding-bottom: 18px;
+}
+.sec-one-text .btn button{
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e8631c;
+    border: none;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.sec-one-text .btn button:hover{
+    background-color: #ffffff;
+    color: #e8631c;
+    transition: .4s;
+    transform:scale(1.03) ;
+}
+.sec-two{
+    background-color: #e8631c;
+}
+.sec-two-text h2{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+.sec-two-text p{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.sec-two .col-30-container{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.col-30{
+    width: 30%;
+    height: 380px;
+}
+.sec-two .col-30{
+    background-color: #303030;
+}
+.sec-two .col-30:hover{
+    transition: .5s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.sec-two img{
+    width: 100%;
+}
+.sec-two .col-30 h3{
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 4px 0;
+}
+.sec-two .col-30 p{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.sec-three{
+    background-color: #303030;
+}
+.sec-three-text h3{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+.sec-three-text p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.sec-three .col-30-container{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}
+.sec-three .col-30{
+    background-color: #e8631c;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.sec-three img{
+    display: block;
+    margin: 40px auto;
+}
+.sec-three .col-30 h3{
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Oswald";
+    text-align: center;
+}
+.sec-three .col-30 p{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.sec-three button{
+    border: none;
+    border-radius: 10px;
+    background-color: #303030;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 5px 50px;  
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.sec-three button:hover{
+    transition: .5s;
+    transform: scale(1.03);
+    background-color: #ffffff;
+    color: #303030;
+}
+.sec-four{
+    background-color: #e8631c;
+}
+.sec-four .col-40{
+    width: 40%;
+}
+.sec-four-img img{
+    height: 718px;
+}
+.col-60{
+    width: 60%;
+}
+.sec-four-container{
+    width: 50%;
+}
+.sec-four h2{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+.sec-four p{
+    width: 80%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-top: 40px;
+}
+.sec-four button{
+    border: none;
+    border-radius: 10px;
+    background-color: #303030;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 50px;  
+    cursor: pointer;
+    margin-top: 50px;
+}
+.sec-four button:hover{
+    transition: .5s;
+    transform: scale(1.03);
+    background-color: #ffffff;
+    color: #303030;
+}
+.sec-five{
+    background-color: #e8631c;
+}
+.sec-five h2{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+.sec-five p{
+    width: 80%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-top: 40px;
+}
+.sec-five button{
+    border: none;
+    border-radius: 10px;
+    background-color: #303030;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 50px;  
+    cursor: pointer;
+    margin-top: 50px;
+}
+.sec-five button:hover{
+    transition: .5s;
+    transform: scale(1.03);
+    background-color: #ffffff;
+    color: #303030;
+}
+.sec-five img{
+    height: 718px;
+    width: 600px;
+}
+.sec-six{
+    background-color: #303030;
+}
+.sec-six-text h2{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 100px 0 25px 0;
+}
+.sec-six-text p{
+    width: 50%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.sec-six-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.sec-six .col-30{
+    height: 320px;
+}
+.sec-six .col-30 h3{
+    font-size: 67px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+.sec-six .col-30 span{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+}
+.sec-seven{
+    background-image: url(./Imgs/Sec-seven.png);
+    background-size: cover;
+}
+.sec-seven-text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sec-seven-text p{
+    width: 60%;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+    padding-top: 100px;
+    margin: 20px auto;
+}
+.sec-seven-text h2{
+    font-size: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 10px;
+}
+.sec-eight{
+    background-color: #e8631c;
+}
+.sec-eight-text h2{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+.sec-eight-text p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.form-mail-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.form-mail-subscribe form{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form-mail-subscribe form input{
+    border: none;  
+    width: 450px;
+    height: 50px;
+    background-color: #ffffff;  
+    padding: 20px;
+    display: block;
+    margin: 40px auto 0;
+    font-size: 25px;
+    border: 2px solid ;
+}
+.sec-eight .btn button{
+    width: 150px;
+    height: 50px;
+    background-color: #303030;
+    border: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Oswald";
+    text-align: center;
+}
+.sec-eight .btn button:hover{
+    background-color: #ffffff;
+    color: #303030;
+    transition: .4s;
+    transform: scale(1.05);
+}
+.sec-nine{
+    background-color: #303030;
+}
+.col-50{
+    width: 50%;
+}
+.col-16{
+    width: 16.66%;
+    height: 30vh;
+    margin: 2px;
+}
+.sec-nine-text h2{
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    padding-bottom: 20px;
+}
+.sec-nine .container .row{
+    display: flex;
+    padding: 100px 0;
+}
+.sec-nine-text p{
+    width: 70%;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-bottom: 20px;
+}
+.logo i{
+    color: #ffffff;
+    font-size: 30px;
+    padding-right: 10px;
+}   
+.logo i:hover{
+    color: #e8631c;
+    cursor: pointer;
+    transition: .3s;
+}
+.col-16 h2{
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    padding-bottom: 5px;
+}
+.col-16 ul li{
+    list-style: none;
+}
+.col-16 ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";   
+}
+.col-16 ul li a:hover{
+    color: #e8631c;
+    transition: .3s;
+}
+
+    
+
+
+
